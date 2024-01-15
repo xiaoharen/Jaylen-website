@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light+Two");
+
+#intro {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#intro #content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro #content #nombre {
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 3em;
+    color: #f290c3;
+}
+
+#intro #content #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+
+#intro #content #logo .xhr {
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+#intro h2{
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 1.5em;
+    color: #f290c3;
+}
